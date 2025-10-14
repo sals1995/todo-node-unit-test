@@ -11,7 +11,7 @@ const URL=`${DB_HOST}/${DB_Test_NAME}`
  */
 const connectToDatabase = async () => {
     try {        
-        await mongoose.connect("mongodb://127.0.0.1:27017/test");
+        await mongoose.connect(URL);
     } catch (error) {
         throw error
     }

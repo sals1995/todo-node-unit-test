@@ -1,10 +1,6 @@
 
 describe("lab testing:", () => {
 
-    // afterAll(async () => {
-    //     await clearDatabase()
-    // })
-
     describe("users routes:", () => {
         it("GET /user/search should respond with the correct user with the name requested",  () => { 
             // Note: user name must be sent in request query not request params
