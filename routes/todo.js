@@ -25,9 +25,9 @@ router.patch("/:id",auth, updateTitleTodoById);
 
 router.get("/user",auth, getUserTodos);
 
+/* --------------------  ------------------- */
 router.delete("/",auth,deleteAllTodos)
 
-/* --------------------  ------------------- */
 
 router.get("/:id",auth,getTodoById);
 module.exports = router;

@@ -19,8 +19,8 @@ router.post("/login", login);
 /* -------------------- lab ------------------- */
 router.get("/search", getUserByName);
 
-router.delete("/",deleteAllUsers);
 /* -------------------------------------------- */
+router.delete("/",deleteAllUsers);
 
 /** get user by id **/
 router.get("/:id", getUserById);
